@@ -13,7 +13,7 @@ body{
     background: url('clock1.png') no-repeat;
     background-size: 100%;
     margin: auto;
-    background-color:blanchedalmond;
+    border-radius: 50px;
 }
 #hour ,#minute , #second{
     position: absolute;
