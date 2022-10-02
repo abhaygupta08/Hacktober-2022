@@ -1,3 +1,7 @@
+*{
+    font-style: normal;
+    font-family: monospace, sans-serif;
+}
 body{
     background-color: rgb(226, 238, 238);
 }
