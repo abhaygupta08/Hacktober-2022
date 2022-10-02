@@ -88,7 +88,7 @@ If you had fun while contributing to this project, then don't forget to give thi
 # Contributors 
 
 - [Niketh23](https://github.com/Niketh23)
-
+- [AyushSingh-github](https://github.com/AyushSingh-github)
 # Maintainer
 
 - [abhaygupta08](https://github.com/abhaygupta08)
