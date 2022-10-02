@@ -90,9 +90,13 @@ If you had fun while contributing to this project, then don't forget to give thi
 - [Niketh23](https://github.com/Niketh23)
 - [AyushSingh-github](https://github.com/AyushSingh-github)
 - [NahushSingh](https://github.com/NahushSingh)
+- [rohit8020](https://github.com/rohit8020)
+
 # Maintainer
 
 - [abhaygupta08](https://github.com/abhaygupta08)
+
+`For doubts contact hactober@abhaygupta.me`
 
 # Happy Hacking
 `This README was generated with ❤️ by Abhay Gupta`
