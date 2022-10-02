@@ -1,6 +1,19 @@
-# Hacktober-2022
-🚀 An Open Source repository to Teach people How to contribute to open sources.
-### This repository is for collecting the different projects made by people who wants to contribute in open source.
+<div align="center">
+<h1> Hacktober-2022 </h1>
+🚀 This repository is for collecting the different projects made by people who wants to contribute in open source.
+
+<br/>
+
+![Hacktoberfest 2021](https://raw.githubusercontent.com/ossamamehmood/Hacktoberfest2022/main/static/logo.png)
+
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/abhaygupta08/Hacktober-2022) 
+[![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green)](https://github.com/abhaygupta08/Hacktober-2022)
+[![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3)](https://github.com/abhaygupta08/Hacktober-2022)
+[![Hacktoberfest-2022](https://img.shields.io/static/v1.svg?label=Hacktoberfest-2022&message=accepted&color=red)](https://github.com/abhaygupta08/Hacktober-2022)
+
+</div>
+
 
 
 
@@ -18,12 +31,10 @@
 
 
 
-
- 
 ##  `Steps To Generate PR(Pull Request)`
 
-Don't Forget to star this repository.
-
+- (Star ⭐ & Fork 🍽️) this repository.
+- Follow [abhaygupta08](https://www.github.com/abhaygupta08) get it merged fast.
 # Fork this repository
 
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
@@ -53,9 +64,7 @@ git checkout -b your_new_branch_name
 # Add & commit
 
 Add your changes(folder) to that branch. <br/>
-Make necessary changes and commit those changes. <br/>
-*Add your name in contributors list in `readme.md`*
-
+Make necessary changes and commit those changes. 
 *terminal commands*
 ```
 git add .
@@ -78,29 +87,67 @@ Then go to your repository on GitHub, you'll see a Compare & pull request button
 
 Now submit the pull request.
 
-# Star this repository
 
-If you had fun while contributing to this project, then don't forget to give this project a star ⭐.
+### Don't forget to read the contributing rules mentioned below to be successfully merged your PR and get rewards!!!
 
-# Thanks for your contribution
+🏹 Visit <a href="hacktoberfest.com" target="_blank">Hacktoberfest</a> to get more information about Hacktoberfest 2022!!!
 
+✈ Visit <a href="https://hacktoberfest-swag.com" target="_blank">Hacktoberfest-swag</a> to know more about your swags and rewards!!!
 
-# Contributors 
+# 🛡Rules to Contribute
+- ⚓Star this repo to get latest updates.
+  If you had fun while contributing to this project, then don't forget to give this project a star ⭐.
 
-- [Niketh23](https://github.com/Niketh23)
-- [AyushSingh-github](https://github.com/AyushSingh-github)
-- [NahushSingh](https://github.com/NahushSingh)
-- [rohit8020](https://github.com/rohit8020)
-
-# Maintainer
-
-- [abhaygupta08](https://github.com/abhaygupta08)
-
-`For doubts contact hactober@abhaygupta.me`
-
-# Happy Hacking
-`This README was generated with ❤️ by Abhay Gupta`
+- ⚓Give your file a proper extension according to language. Ex. .py, .java, .js. html etc.
+- ⚓Name your file related to your topic.
+- ⚓Put your files in correct folder like .py in Python, .js in Javascript etc.
+- ⚓You can follow ME😁.
+-----------------------------------------
 
 
+## Contributors of `Hacktoberfest 2022`
+
+<div align="center">
+
+<a href="https://github.com/abhaygupta08/Hacktober-2022/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhaygupta08/Hacktober-2022" />
+</a>
+  
+  </div>
+
+
+
+
+
+## Note
+All contributors who have followed the rules to contribute get successfully merged PR. Don't forget to follow!!! 
+
+Have some patience to get successfully merged PR. Keep Patience!!!
 
 We're happy to merge valid pull requests to this repository !
+
+
+
+
+
+
+
+
+
+
+
+
+## + Follow Me : } Quick Approval of Pull Request
+
+```py
+'''
+To get approval of the pull request much quicker (`Follow Me`)🚀
+'''
+```
+<a align="center" href="https://github.com/abhaygupta08"><kbd><img src="https://avatars3.githubusercontent.com/abhaygupta08?size=100" width="100px;" alt=""/></kbd><br /><sub><b>Abhay Gupta</b></sub></a><br />
+
+`For doubts contact hacktober@abhaygupta.me`
+### Happy coding fellas!!💕✨
+
+
+
