@@ -22,9 +22,7 @@
  
 ##  `Steps To Generate PR(Pull Request)`
 
-
-
-
+Don't Forget to star this repository.
 
 # Fork this repository
 
@@ -54,8 +52,9 @@ git checkout -b your_new_branch_name
 
 # Add & commit
 
-Add your changes(folder) to that branch.
-Make necessary changes and commit those changes.
+Add your changes(folder) to that branch. <br/>
+Make necessary changes and commit those changes. <br/>
+*Add your name in contributors list in `readme.md`*
 
 *terminal commands*
 ```
@@ -84,6 +83,15 @@ Now submit the pull request.
 If you had fun while contributing to this project, then don't forget to give this project a star ⭐.
 
 # Thanks for your contribution
+
+
+# Contributors 
+
+- [Niketh23](https://github.com/Niketh23)
+
+# Maintainer
+
+- [abhaygupta08](https://github.com/abhaygupta08)
 
 # Happy Hacking
 `This README was generated with ❤️ by Abhay Gupta`
