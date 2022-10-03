@@ -1,0 +1,7 @@
+arcade==2.0.9
+future==0.17.1
+numpy==1.16.4
+Pillow==6.2.0
+pyglet==1.4.0b1
+pyglet-ffmpeg2==0.1.12
+PyYAML==5.1.1
