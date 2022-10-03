@@ -1,0 +1,31 @@
+assets_path:
+  sounds:
+    knife_propelled: "assets/sounds/knife_propelled.mp3"
+    target_hitted: "assets/sounds/target_destroyed.mp3"
+    target_destroyed: "assets/sounds/target_hitted.mp3"
+    boss1_hitted: "assets/sounds/boss1_hitted.mp3"
+    boss2_destroyed: "assets/sounds/boss2_destroyed.mp3"
+  images:
+    logo: "assets/images/logo.png"
+    background_ingame: "assets/images/background/bg1.png"
+    background_gameover: "assets/images/background/bg2.png"
+    knife: "assets/images/knife/knife1.png"
+    target: "assets/images/target/wood1.png"
+    knife_count:
+      foreground: "assets/images/knife-count/foreground.png"
+      background: "assets/images/knife-count/background.png"
+    boss:
+      boss1: "assets/images/boss/apple-pie.png"
+      boss2: "assets/images/boss/moon.png"
+general_settings:
+  sprite_scaling: 0.5
+  screen_width: 540
+  screen_height: 960
+  screen_title: "Python Knife Hit"
+  game_over_delay: 1
+  max_knife_count: 10
+  min_knife_count: 5
+knife_settings:
+  speed: 70
+target_settings:
+  rotation_speed: 2 
