@@ -1,10 +1,21 @@
-#https://codeforces.com/problemset/problem/266/A
-n =int(input())
-s =input()
-st =[s[0]]
-for i in range(1,n):
-    if s[i]==st[-1]:
-        continue
-    else:
-        st.append(s[i])
-print(n-len(st))
+#include<bits/stdc++.h>
+ 
+using namespace std;
+int main(){
+ int a=0, n;
+   cin>>n;
+       char s[n];
+    cin>>s;
+    for (int i = 0; i < n; i++)
+    {
+        if (s[i-1]== s[i])
+        {
+          a++;
+        }
+        
+    }
+    cout<<a<<endl;
+    
+    return 0;
+ 
+}
