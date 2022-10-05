@@ -1,12 +1,21 @@
 #https://codeforces.com/problemset/problem/233/A
-n =int(input())
-if n&1:
-    print(-1)
-else:
-    l=[]
-    for i in range(1,n+1,2):
-        l.append(i+1)
-        l.append(i)
-    for i in l:
-        print(i,end=" ")
-    
+#include <iostream>
+using namespace std;
+
+int main() {
+
+int n;
+
+cin>>n;
+if(n%2==1) cout<<-1<<endl;
+else {
+	for(int i=0;i<n;i++){
+	 if(i%2==0)  cout<<i+2;
+	 else cout<<i;
+	 cout<<" ";
+	}
+	
+	
+}
+	return 0;
+}
