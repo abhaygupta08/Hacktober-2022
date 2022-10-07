@@ -1,0 +1,104 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing: border-box;}
+
+html{
+    background-color: white;
+    color:#555;
+    font-family: 'Lato','Arial', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)), url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+h1{
+    margin:0;
+    color:white;
+    font-size:240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+
+
+}
+.hero-text-box{
+    position: absolute;
+    width:600px;
+    top:40%;
+    left:10%;
+    transform:translate(-50% -50%);
+
+}
+
+.btn:link, .btn:visited{
+    display:inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid #e67e22;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link, .btn-full:visited{
+    background-color: #e67e22;
+    padding:10px 25px;
+     
+}
+.btn-ghost:link, .btn-ghost:visited{
+color:#e67e22;
+margin-left: 10px;
+padding:10px 10px;
+}
+
+.btn:hover, 
+.btn:active{
+    background-color:#a55c1b ;
+}
+.btn-ghost:hover, .btn-ghost:active{
+    color:white;
+    background-color:#a55c1b
+    }
+    
+#logo{
+    width: 7%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline;
+}
+
+li {
+    text-decoration: none;
+    color:white;
+    display:inline;
+    margin:30px;
+}
+
+.navbar{
+    margin-left: 400px;
+    margin-bottom: 50%;
+    display: inline;};
+
+ul { padding-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    margin:-10px;
+  }
