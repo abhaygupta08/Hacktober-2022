@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/profile_Finder/static/css/main.f678d671.css",
+    "main.js": "/profile_Finder/static/js/main.1e5fe868.js",
+    "static/media/burger-loader.gif": "/profile_Finder/static/media/burger-loader.358b827a6d860ccb0238.gif",
+    "index.html": "/profile_Finder/index.html",
+    "main.f678d671.css.map": "/profile_Finder/static/css/main.f678d671.css.map",
+    "main.1e5fe868.js.map": "/profile_Finder/static/js/main.1e5fe868.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f678d671.css",
+    "static/js/main.1e5fe868.js"
+  ]
+}
