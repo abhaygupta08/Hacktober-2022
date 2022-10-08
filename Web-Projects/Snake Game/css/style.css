@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Yellowtail&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: url(../items/bg.jpg);
+    background-size:100vw 100vh ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#item{
+    margin: 0px 20px;
+}
+
+#board{
+    background:linear-gradient(rgb(145, 204, 145) , yellow);
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background-color: rgb(214, 30, 30);
+    border: 2px solid black;
+    transform: scale(1.2);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: rgb(8, 5, 8);
+    border-radius: 12px;
+}
+
+.food{
+    background:linear-gradient(red , purple);
+    border: .25vmin solid black;
+}
+
+.maker{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 59vmin;
+    height: 92vmin;
+}
+
+.maker h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Yellowtail', cursive;
+    padding: 18px;
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(72, 157, 236, 0.884);;
+    border-radius: 22px;
+    box-shadow: inset 3px 5px green;
+    text-shadow: -3px -2px 2px rgb(185, 72, 72);
+}
+
+#scoreBox{
+    font-family: 'Bebas Neue', cursive;
+    padding: 18px;
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(36, 196, 196, 0.884);
+    border-radius: 22px;
+    box-shadow: inset 3px 5px green;
+    
+}
+#hiscoreBox{
+    font-family: 'Bebas Neue', cursive;
+    padding: 18px;
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(46, 172, 94, 0.884);;
+    border-radius: 22px;
+    box-shadow: inset 3px 5px green;
+}
+
+#extra{
+    padding: 18px;
+    margin: 14px;
+    font-size:42px;
+    background-color: rgba(214, 230, 77, 0.884);;
+    border-radius: 22px;
+    box-shadow: inset 3px 5px green;
+}
