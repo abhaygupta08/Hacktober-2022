@@ -1,0 +1,77 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+// #define int long long
+#define all(a) a.begin(), a.end()
+
+
+class node{
+public:
+	int data;
+	node* left;
+	node* right;
+
+	node(int d){
+		left = NULL;
+		right = NULL;
+		data = d;
+	}
+};
+
+void inorder(node* root){
+	if(root==NULL){
+		return ;
+	}
+
+	inorder(root->left);
+	cout<<root->data<<endl;
+	inorder(root->right);
+}
+
+void preorder(node* root){
+	if(root==NULL){
+		return ;
+	}
+
+	
+	cout<<root->data<<endl;
+	preorder(root->left);
+	preorder(root->right);
+}
+
+void postorder(node* root){
+	if(root==NULL){
+		return ;
+	}
+
+	postorder(root->left);
+	postorder(root->right);
+	cout<<root->data<<endl;
+}
+
+
+node* constructtree(){
+	int d;
+	cin>>d;
+	if(d==-1)return NULL;
+
+	node* head = new node(d);
+	head->left=constructtree();
+	head->right=constructtree();
+
+	return head;
+
+}
+
+signed main(){
+	
+	// node* head = new node(1);
+	// head->left =new node(2);
+	// head->right = new node(3);
+
+	node* head = constructtree();
+	inorder(head);
+	preorder(head);
+	postorder(head);
+	
+}
