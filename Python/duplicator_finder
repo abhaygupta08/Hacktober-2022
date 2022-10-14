@@ -1,0 +1,12 @@
+x = []
+for i in range(5):
+  u = input("Enter a letter/number")
+  x += u
+
+print(x)
+def duplicate_finder(x):
+  return list(dict.fromkeys(x))
+
+mylist = duplicate_finder(x)
+
+print(mylist)
