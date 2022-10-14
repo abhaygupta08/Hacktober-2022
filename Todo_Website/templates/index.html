@@ -1,0 +1,68 @@
+{% extends 'base.html' %} {% block body %}
+
+
+<div class="container">
+    <h1>Add a todo</h1>
+    <form action="\" method="POST">
+        <div class="form-group">
+            <label for="title">Todo Title</label>
+            <input type="text" class="form-control" name="title" id="title" aria-describedby="emailHelp" placeholder="Write your todo title">
+            <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+            <label for="desc">Todo Description</label>
+            <input type="text" class="form-control" name="desc" id="desc" placeholder="Describe it a bit">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<div class="container my-5">
+    <h1>Your Todos</h1>
+
+    {% if allTodo|length==0 %}
+    <div class="alert alert-danger" role="alert">
+        No records found to show!
+    </div>
+    {% else %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">S No</th>
+                <th scope="col">Title </th>
+                <th scope="col">Description</th>
+                <th scope="col">Time</th>
+                <th scope="col">Actions</th>
+
+            </tr>
+        </thead>
+        {% for todo in allTodo %}
+
+        <tbody>
+            <tr>
+                <th scope="row">{{loop.index}}</th>
+                <td>{{todo.title}}</td>
+                <td>{{todo.desc}}</td>
+                <td>{{todo.date_created}}</td>
+                <td>
+                    <a href="/delete/{{todo.sno}}" type="button" class="btn btn-outline-danger btn-sm mx-1">Delete</a>
+                    <a href="/update/{{todo.sno}}" type="button" class="btn btn-outline-danger btn-sm mx-1">Update</a>
+
+                </td>
+            </tr>
+            {% endfor %} {% endif %}
+
+
+
+        </tbody>
+    </table>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+{% endblock body %}
