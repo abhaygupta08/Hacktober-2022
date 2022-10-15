@@ -1,26 +1,30 @@
-def merge(left, right):
-    if len(left) == 0:
-        return right
-
-    if len(right) == 0:
-        return left
-
-    result = []
-    index_left = index_right = 0
-    while len(result) < len(left) + len(right):
-        if left[index_left] <= right[index_right]:
-            result.append(left[index_left])
-            index_left += 1
-        else:
-            result.append(right[index_right])
-            index_right += 1
-
-        if index_right == len(right):
-            result += left[index_left:]
-            break
-
-        if index_left == len(left):
-            result += right[index_right:]
-            break
-
-    return result
+def merge(a):
+    if len(a)>1:
+        mid=(len(a))//2
+        l=a[:mid]
+        r=a[mid:]
+        merge(l)
+        merge(r)
+        i=j=k=0
+        while i<len(l) and j<len(r):
+            if l[i]<r[j]:
+                a[k]=l[i]
+                i+=1
+            else:
+                a[k]=r[j]
+                j+=1
+            k+=1
+        while i<len(l):
+            a[k]=l[i]
+            i+=1
+            k+=1
+        while j<len(r):
+            a[k]=r[j]
+            j+=1
+            k+=1
+def pr(a):
+    for i in range(len(a)):
+        print(a[i],end=" ")
+a=[5,6,8,0,3,4,21,1]
+merge(a)
+pr(a)
