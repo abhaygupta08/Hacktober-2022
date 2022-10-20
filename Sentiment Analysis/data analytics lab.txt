@@ -1,3 +1,0 @@
-11 march lab1 amx min sqrt avg sum round 
-lab 2  import export readcsv tocsv toxl
-lab 3 lab 4 7 april 2022
