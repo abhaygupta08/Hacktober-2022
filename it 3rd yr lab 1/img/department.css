@@ -1,0 +1,13 @@
+#block{
+    float: right;
+    text-align: justify;
+}
+
+#table{
+    text-decoration: double;
+    font-style: italic;
+}
+
+#psitcover{
+    position: relative;
+}

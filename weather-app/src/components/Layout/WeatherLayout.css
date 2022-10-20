@@ -1,0 +1,90 @@
+body {
+  background-color: #0b0c0d;
+}
+
+.container {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.027);
+  border-radius: 20px;
+  width: 30vw;
+  margin: 5rem auto;
+}
+
+.heading {
+  font-weight: 900;
+  color: #4da470;
+}
+
+.weekday {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-bottom: 0;
+  color: #4da470;
+  font-weight: 700;
+}
+
+.dateMonth {
+  display: inline-block;
+  font-size: 1rem;
+  color: #abbab6;
+  margin-bottom: 0;
+}
+
+.date {
+  padding: 20px 0;
+  font-weight: 300;
+}
+
+.place {
+  font-size: 1rem;
+  padding: 0 0;
+  margin: 0;
+  color: #abbab6;
+  font-weight: 300;
+}
+.temp-value {
+  font-weight: 700;
+}
+
+.temp-box {
+  display: flex;
+  color: #fff;
+}
+
+.weather-img {
+  height: 10vh;
+}
+
+.min-max {
+  font-size: 1rem;
+  color: #abbab6;
+  font-weight: 300;
+}
+
+.weather img {
+  height: 28px;
+  display: inline;
+  padding-right: 10px;
+}
+
+.weather p {
+  display: inline;
+  color: #fff;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 50vw;
+    /* background-color: #4DA470; */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 80vw;
+  }
+}

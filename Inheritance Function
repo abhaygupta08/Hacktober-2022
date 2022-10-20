@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+
+//Base class
+class employee;
+int id;
+int salary;
+}:
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    return 0;
+    
+}#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    return 0;
+    
+}
+#include <stdio.h>
+
+int main() {
+    
+    printf("Hello, World!\n");
+    return 0;
+}
+
+// Derived Class
+/*class {{derived-class-name}} :{{visibility-mode}}{{base-class-name}}
+{
+
+}
+*/
+int main(){
+    
+    return 0;
+    
+}

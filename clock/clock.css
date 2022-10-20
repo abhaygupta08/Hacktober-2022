@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+border-radius: 50%;
+}
+.outer_layer{
+position: relative;
+background-color: rgb(139, 48, 182);
+width: 300px;
+height: 300px;
+margin-top: 50px;
+margin-left: 50px;
+}
+.inner_layer{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(201, 134, 207);
+    transform: translate(25%,25%);
+}
+.hour_hand,.minuit_hand,.second_hand{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.hh{
+    position: absolute;
+    height: 30%;
+    width: 5px;
+    background-color: rgb(90, 12, 126);
+    transform: translate(1830%,50%);
+    
+}
+.mh{
+    position: absolute;
+    height: 40%;
+    width: 4px;
+    background-color:rgba(86, 11, 121, 0.7);
+    transform-origin: 50% 100%;
+    transform: translate(2304%, 14%) rotateZ(60deg);  
+}
+.sh{
+    position: absolute;
+    height: 50%;
+    width: 3px;
+    background-color:rgba(91, 20, 124, 0.486);
+    transform-origin: 50% 100%;
+    transform: translate(3083%,-9%) rotateZ(120deg);
+    
+}

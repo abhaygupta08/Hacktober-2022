@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#title{
+    background-color: #FF4C68;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-bottom: -50%;
+}
+
+.title-image-container{
+    position: relative;
+}
+
+.container2{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.col-lg-4{
+    padding: 4.5%;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #8f8f8f;
+}
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+} 
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #FF4C68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icons{
+    padding: 3% 1%;
+}
+
+@media(max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
