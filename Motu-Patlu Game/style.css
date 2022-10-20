@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+}
+.gamecontainer{
+    background: url(./road.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+}
+body{
+    overflow: hidden;
+}
+.gameover{
+    visibility: hidden;
+    position: relative;
+    font-size: 1.5rem;
+   color: rgb(133, 86, 52);
+   font-family: 'Press Start 2P', cursive;
+    /* align-items: center;
+    justify-content: center; */
+    top: 160px;
+    left: 550px;
+}
+
+.motu{
+    background: url(./motu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0px;
+    left: 75px;
+}
+.dino{
+    background: url(./enemy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 240px;
+    height: 200px;
+    position: absolute;
+    bottom: 30px;
+    left: 1000px;
+}
+.btn{
+    visibility: hidden;
+    display: block;
+    width: 200px;
+    font-size: 1.3rem;
+    height: 40px;
+    margin: 350px auto;
+    background-color: red;
+    border-radius: 4px;
+    border: 2px black solid;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgb(236, 125, 125);
+}
+.btn1{
+    visibility: visible;
+    display: block;
+    width: 200px;
+    font-size: 1.3rem;
+    height: 40px;
+    margin: 200px auto;
+    background-color: red;
+    border-radius: 4px;
+    border: 2px black solid;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.animatemotu{
+    animation: motu 0.6s linear;
+}
+.animatedino{
+    animation: dino 5s linear infinite;
+}
+@keyframes motu {
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        bottom: 350px;
+    }
+    100%{
+        bottom: 0px;
+        left: 200px;
+    }
+}
+@keyframes dino {
+    0%{
+        left:100vw;
+    }
+    100%{
+        left:-10vw;
+    }
+}
+.guide{
+    visibility: visible;
+    width: 150px;
+    height: 110px;
+    top: 50px;
+    text-decoration: underline;
+    border: 2px solid red;
+    background-color:cyan;
+    color: black;
+    padding: 3px;
+   position: relative;
+   left: 1300px;
+   font-family: 'Baloo Bhai 2', cursive;
+}
+#scorecard{
+    color:rgb(133, 86, 52);
+    visibility: hidden;
+    position: relative;
+    text-decoration: underline;
+    top: 60px;
+    left: 710px;
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
+.main{
+    color: crimson;
+    top: 40px;
+    left: 530px;
+    position: relative;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}

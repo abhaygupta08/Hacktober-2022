@@ -1,0 +1,36 @@
+class Solution {
+public:
+    int minReorder(int n, vector<vector<int>>& connections) {
+        
+        vector<int>v(n,0);vector<vector<int>>adj(n);map<vector<int>,int>count;
+        for(int i=0;i<connections.size();i++){
+            adj[connections[i][0]].push_back(connections[i][1]);
+            adj[connections[i][1]].push_back(connections[i][0]);
+            
+            count[{connections[i][0],connections[i][1]}]++;
+        }
+        
+        queue<int>q;
+        q.push(0);
+        int ans=0;
+        while(!q.empty()){
+            int x=q.size();
+            while(x--){
+                //cout<<q.front()<<" ";
+                for(int i=0;i<adj[q.front()].size();i++){
+                if(count[{q.front(),adj[q.front()][i]}]&&v[adj[q.front()][i]]==0)ans++;
+                    if(v[adj[q.front()][i]]==0)
+                    q.push(adj[q.front()][i]);
+                    }
+                v[q.front()]=1;
+                q.pop();
+                 //cout<<ans<<endl;
+            }
+           
+            
+        }
+        
+        return ans;
+        
+    }
+};

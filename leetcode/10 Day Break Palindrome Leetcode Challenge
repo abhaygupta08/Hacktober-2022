@@ -1,0 +1,20 @@
+class Solution {
+public:
+    string breakPalindrome(string s) {
+        // Corner Case 
+        if(s.size()==1){
+            return "";
+        }
+        // then you only have to traverse in the string n/2-1 time then check if it not 'a' then               // replace that character with 'a' and the you simply return 
+        for(int i=0;i<=s.size()/2-1;i++){
+            if(s[i]!='a'){
+                s[i]='a';
+                return s;
+            }
+        }
+        // if it is like aaaa -> the you do aaab you simply replace the last char with the 'b' then          //  simply return 
+         s[s.size()-1]='b';
+        return s;
+        
+    }
+};

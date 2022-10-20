@@ -1,0 +1,42 @@
+.splashInitial {
+  padding-top: 15rem;
+  width: 18rem;
+  opacity: 0;
+  animation: fadeContent 3s ease-in-out;
+  border-radius: 50%;
+}
+
+.preload {
+  top: 0;
+  text-align: center;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: brown;
+}
+.splashName {
+  opacity: 0;
+  animation: fadeContent 3s ease-in-out;
+  animation-delay: 0.5s;
+  font-size: 4rem;
+}
+@keyframes fadePreload {
+  0% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeContent {
+  to {
+    opacity: 1;
+  }
+}
+.navbar {
+  visibility: hidden;
+}
