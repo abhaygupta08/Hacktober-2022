@@ -1,0 +1,95 @@
+#include <iostream>
+#include<bits/stdc++.h>
+typedef long long int ll;
+#define pb push_back
+#define lb lower_bound
+#define up upper_bound
+#define bs binary_search
+#define all(x) (x).begin(), (x).end()
+//#define FOR(i,0,n) for(int i=0;i<n;i++ )
+
+#define sec second
+#define fir first
+
+
+using namespace std;
+
+
+
+
+
+
+
+  
+
+  
+    
+ 
+
+ll sume(ll val)
+{
+    ll ans=(val*(val+1))/2;
+    return ans;
+}
+  
+  void solve()
+  {
+      ll n;
+      cin >> n;
+      ll a[n];
+      ll sum=0;
+      for(int i=0;i<n;i++)cin >> a[i];
+      ll count=0;
+      ll f=1;
+      for(int i=0;i<n;i++)
+      {
+          if(a[i]>=f)
+          {
+              f++;
+          }
+          else
+          {  
+              
+             
+             sum=sum+(sume(f-1))-sume(a[i]-1);
+             f=a[i];
+            
+             
+              i--;
+              
+              
+          }
+          
+      }
+      sum=sum+(sume(f-1));
+      cout<<sum<<endl;
+  }
+  
+  
+int main() {
+     ios_base::sync_with_stdio(false);
+     cin.tie(NULL);
+
+
+  int t;
+  cin>>t;
+  while(t--)
+  {  
+    
+    solve();
+    
+    
+     
+  }
+
+
+    
+
+}
+
+
+
+
+
+
+ 
