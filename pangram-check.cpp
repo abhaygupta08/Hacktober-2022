@@ -1,3 +1,5 @@
+//Submitted by - Syed M Osama
+//GitHub - github.com/syed-m-osama
 // Concept
 // A pangram is a sentence where every letter of the English alphabet appears at least once.
 
