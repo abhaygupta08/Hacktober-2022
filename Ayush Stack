@@ -1,0 +1,50 @@
+# Implementation of Stack Using Class In Python
+
+class stack:
+    s1 = []
+    def __init__(self,size):
+        self.size=size
+
+    def is_full(self):
+        if (len(self.s1)==self.size):
+            return True
+        else:
+            return False
+
+    def is_empty(self):
+        if (len(self.s1)==0):
+            return True
+        else:
+            return False
+
+    def push(self,val):
+        if (self.is_full()):
+            print("Stack Overflow")
+        else:
+            self.s1.append(val)
+
+    def pop(self):
+        if (self.is_empty()):
+            print("Stack Underflow")
+        else:
+            x=self.s1.pop()
+            print(x)
+
+    def display(self):
+        if (len(self.s1)==0):
+            print("Stack is empty")
+        else:
+            print("Current stack is:",self.s1)
+st = stack(6)
+while(1):
+    print('push,pop,Quit,display')
+    do = input("Enter the operation:").split()
+    opr = do[0].strip().lower()
+    if opr == 'push':
+        st.push(int (do[1]))
+    elif opr == 'pop':
+        st.pop()
+    elif opr == 'Quit':
+        break
+    elif opr == 'display':
+        st.display()
